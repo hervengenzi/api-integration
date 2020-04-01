@@ -1,0 +1,31 @@
+GET http://localhost:3000/subscribers
+
+###
+
+GET http://localhost:3000/subscribers/5e842ddd382a8c742a0b0283
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name": "Amazing Person",
+    "subscriberToChannel":"Weekend",
+    "subscribeDate":"2019-12-12"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/5e842ddd382a8c742a0b0283
+
+###
+
+PATCH  http://localhost:3000/subscribers/12
+Content-Type: application/json
+
+{
+    "name": "New Name",
+    "subscriberToChannel":"WeekDays",
+    "subscribeDate":"2020-12-12"
+}
