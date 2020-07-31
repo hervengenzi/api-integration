@@ -27,7 +27,7 @@
     "crypto-random-string": "^1.0.0",
     "cross-spawn": "^5.1.0",
     "deep-extend": "^0.6.0",
-    "dot-prop": "^4.2.0",
+    "dot-prop": "^5.1.1",
     "dotenv": "^8.2.0",
     "duplexer3": "^0.1.4",
     "execa": "^0.7.0",
